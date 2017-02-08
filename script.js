@@ -13,9 +13,9 @@ document.querySelector(randomizer).style.backgroundColor = answer;
 function getRandom(){ return Math.round(Math.random() * 255); }
 
 function newGame(){
-red = getRandom();
-green = getRandom();
-blue = getRandom();  
+r = getRandom();
+g = getRandom();
+b = getRandom();  
 }
 
 function assignBoxNum(){

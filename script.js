@@ -6,7 +6,6 @@ var rgbSign = document.querySelector('h1');
 
 rgbSign.textContent = answer;
 
-
 var randomizer = '.choice' + assignBoxNum();
 
 document.querySelector(randomizer).style.backgroundColor = answer;
@@ -22,6 +21,6 @@ blue = getRandom();
 function assignBoxNum(){
   let min = 1, max = 6;
   let random = Math.round(Math.random()*(max-min) + min);
- console.log(random);
+  console.log(random);
   return random;
 }

@@ -1,7 +1,7 @@
-var red, green, blue;
+var r,g,b;
 newGame();
 
-var answer = "rgb(" + red + "," + green + "," + blue + ")";
+var answer = "rgb(" + r + "," + g + "," + b + ")";
 var rgbSign = document.querySelector('h1');
 
 rgbSign.textContent = answer;
